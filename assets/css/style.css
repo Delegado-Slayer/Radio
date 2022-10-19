@@ -27,31 +27,30 @@ body{
 }
 /* css del footer*/
   #footer {
-    color: white;
-    position:static;
+    color: #FFFFFF;
     display: block;
     left:0px;
     bottom:0px;
     height:140px;
     width:100%;
-    background:rgb(0, 0, 0);
+    background:#000000;
  }
 /* css del Letras*/
 .titulo{
     margin-top: 30px;
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: #e72f2a;
     text-decoration: solid;
 }
 .parrafo{
     margin-top: 10px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 .final{
     margin-top: 30px;
     text-align: center;
-    color: rgb(202, 56, 19);
+    color: #e72f2a;
 }
 .final2{
     text-align: center;
