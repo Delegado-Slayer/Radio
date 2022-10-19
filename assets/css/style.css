@@ -1,0 +1,97 @@
+body{
+    margin: 0 auto;
+}
+.cabezal-banner{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.carousel-item > img {
+    height: auto;
+    max-height: 140px;
+    object-fit: cover;
+    max-width: 100%;
+    z-index: -1;
+}
+/* css de logo que hace que se sobreponga sobre el slide */
+.logo{
+    position: absolute;
+    height: auto;
+    max-height: 140px;
+    z-index: 1;
+    max-width: 100%;
+}
+/* css para logos de redes sociales del nav */
+.rs{
+    height: 20px;
+}
+/* css del footer*/
+  #footer {
+    color: white;
+    position:static;
+    display: block;
+    left:0px;
+    bottom:0px;
+    height:140px;
+    width:100%;
+    background:rgb(0, 0, 0);
+ }
+/* css del Letras*/
+.titulo{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    text-decoration: solid;
+}
+.parrafo{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.final{
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(202, 56, 19);
+}
+.final2{
+    text-align: center;
+}
+.face{
+    text-align: center;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+.audio-player{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    audio
+    {
+    width: 60%;
+    -webkit-transition:all 0.5s linear;
+    -moz-transition:all 0.5s linear;
+    -o-transition:all 0.5s linear;
+    transition:all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #006773;
+    -webkit-box-shadow:  2px 2px 4px 0px #006773;
+    box-shadow: 2px 2px 4px 0px #006773;
+    -moz-border-radius:7px 7px 7px 7px ;
+    -webkit-border-radius:7px 7px 7px 7px ;
+    border-radius:7px 7px 7px 7px ;
+    }
+    audio:hover, audio:focus, audio:active
+    {
+    -webkit-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0,0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+    }
+aside{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: auto;
+}

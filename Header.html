@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Inicio</title>
+</head>
+
+<body >
+    <!-- Header con slide y logo sobresaliente-->
+ <header>
+  <div class="container-fluid cabezal-banner">
+    <div>
+        <div class="col-12">
+          <img src="assets/img/Logolong.png" class='logo'/>
+             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/ban1.jpg" class="d-block w-100" alt="banner1">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/ban2.jpg" class="d-block w-100" alt="Manzana">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/ban3.jpg" class="d-block w-100" alt="Paisaje">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/ban4.jpg" class="d-block w-100" alt="Paisaje">
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>    
+  </div>
+  </header>
+
+  
+  <nav class="navbar navbar-expand-lg bg-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Barra de Navegacion</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Historia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ubicacion</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Redes sociales
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><img class= "rs" src="assets/img/face.png" alt=""> Facebook</a></li>
+              <li><a class="dropdown-item" href="#"><img class= "rs" src="assets/img/twitter.png" alt=""> Twitter</a></li>
+              <li><a class="dropdown-item" href="#"><img class= "rs" src="assets/img/insta.png" alt=""> Instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section>
+      <div class="container-fluid">
+        <div class="row"> 
+          <div class="col-12">
+              <h1 class="titulo"> Bienvenidos a la Radio Online</h1>
+              <br>
+              <p class="parrafo"> Noticias, música y entretención Somos la mejor compañía</p>
+          </div>
+          <div class="col-12">
+            <h2 class="titulo">Radio en Vivo</h2>
+
+            <div class="audio-player"  >
+              <p>
+              <audio controls="controls" id="audioAJDDHR" preload="auto">
+              <source src="https://sonic.streamingchilenos.com/9960/;" type="audio/mpeg" />	Su navegador no soporta AUDIO.<br />
+              </audio></p></div>	
+              <p class="parrafo" >DALE CLICK EN EL PLAY... Y DISFRUTA DE LA MEJOR COMPAÑIA</p>         
+          </div>
+
+        </div>
+     </div>
+  </section>
+
+<aside> 
+  <div class="container-fluid">
+    <div class="row"> 
+      <div class="col-12">
+        <h1 class="titulo">Las Ultimas noticias</h1>
+        <p class="parrafo" >Revisa las ultimas novedades en quemchi en nuestra pagina de facebook</p>
+        <div class="face">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FColoaneradiochiloe%2F&tabs=timeline&width=400&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="220" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>        </div>
+        </div>
+      </div>
+      </div>  
+</aside>
+
+
+
+
+<footer id="footer" >
+<div class="container-fluid">
+<div class="row">
+  <div class="col-12">
+
+   
+        <h3 class="final">Radio Coloane de Quemchi - 92.3</h3>
+        <p class="final2">Derechos Reservados - 2022</p>  
+
+
+  </div>
+</div>
+</div>
+</footer>
+
+  
+  
+
+    <!--JQUERY "generalizada o internacional<"-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- "bootstrap" JQUERY -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+
+</body>
+</html>
